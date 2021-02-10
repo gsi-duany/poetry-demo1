@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-demo1"
+version = "0.1.0"
+description = ""
+authors = ["macurandb <macurandb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+poetry-demo2 = { path = "/home/duany/SOURCES/PycharmProjects/Poetry/poetry-demo2" }
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
