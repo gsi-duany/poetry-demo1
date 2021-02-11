@@ -6,7 +6,9 @@ authors = ["macurandb <macurandb@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-poetry-demo2 = { path = "/home/duany/SOURCES/PycharmProjects/Poetry/poetry-demo2" }
+#poetry-demo2 = { path = "/home/duany/SOURCES/PycharmProjects/Poetry/poetry-demo2" }  Added local dependency
+poetry-demo2 = { git = "https://github.com/gsi-duany/poetry-demo2.git", branch = "master"}
+#poetry-demo2 = { git = "https://github.com/gsi-duany/poetry-demo2.git@0.1.1"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
